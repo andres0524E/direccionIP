@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Conexión Actual</title>
-    <link rel="stylesheet" href="assets/css/styles.css?v=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <nav class="barra-navegacion">
-        <div class="logo">Geo-IP</div>
+        <div class="logo">Geo-IP Explorer</div>
     </nav>
 
     <main class="principal">
         <div class="tarjeta">
             <h1>Mi Conexión Actual</h1>
             
-            <img id="bandera-imagen" src="" alt="bandera" style="display: none;">
+            <img id="bandera-imagen" src="" alt="Bandera" style="display: none;">
 
             <div class="dato-grupo">
                 <span class="etiqueta">Dirección IP:</span>
@@ -28,16 +28,41 @@
             </div>
 
             <div class="dato-grupo">
+                <span class="etiqueta">País:</span>
+                <span id="pais-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
+                <span class="etiqueta">Capital:</span>
+                <span id="capital-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
                 <span class="etiqueta">Ciudad:</span>
                 <span id="ciudad-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
+                <span class="etiqueta">Latitud / Longitud:</span>
+                <span id="coordenadas-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
+                <span class="etiqueta">Zona Horaria:</span>
+                <span id="zona-horaria-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
+                <span class="etiqueta">Moneda:</span>
+                <span id="moneda-resultado" class="valor">Cargando...</span>
             </div>
         </div>
     </main>
 
     <footer class="pie-pagina">
-        <p>Andres Jeriel Cruz Resendiz | Programación Web | 22200916</p>
+        <p>Andrés Jeriel Cruz Reséndiz | Programación Web | 22200916</p>
     </footer>
 
-    <script src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

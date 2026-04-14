@@ -2,7 +2,6 @@ body {
     font-family: 'inter', 'segoe ui', sans-serif;
     background-color: #0d1117; 
     color: #c9d1d9;
-    /* el body se convierte en una columna que ocupa el 100% de la pantalla */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,18 +23,17 @@ body {
     letter-spacing: 2px;
 }
 
-/* esta clase empuja la navbar arriba y el footer abajo, centrando su contenido */
 .principal {
     flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .tarjeta {
     background-color: #161b22;
-    padding: 40px;
+    padding: 30px;
     border-radius: 16px;
     border: 1px solid #30363d;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
@@ -43,31 +41,31 @@ body {
     flex-direction: column;
     align-items: center; 
     width: 100%;
-    max-width: 320px;
+    max-width: 380px;
 }
 
 h1 {
     color: #ffffff;
     font-size: 1.4rem;
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 600;
     text-align: center;
 }
 
 #bandera-imagen {
-    width: 80px;
+    width: 70px;
     height: auto;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .dato-grupo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
 }
 
@@ -76,18 +74,18 @@ h1 {
 }
 
 .etiqueta {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #8b949e;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .valor {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #7aa2f7; 
     font-weight: bold;
-    text-shadow: 0 0 15px rgba(122, 162, 247, 0.3);
+    text-shadow: 0 0 10px rgba(122, 162, 247, 0.3);
     text-align: center;
 }
 
