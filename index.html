@@ -3,13 +3,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi IP Pública</title>
+    <title>Mi Conexión Actual</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <div class="contenedor">
-        <h1>Tu dirección IP pública es:</h1>
-        <p id="ip-resultado">Cargando IP...</p>
+    <div class="tarjeta">
+        <h1>Mi Conexión Actual</h1>
+        
+        <img id="bandera-imagen" src="" alt="bandera" style="display: none;">
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Dirección IP:</span>
+            <span id="ip-resultado" class="valor">Cargando...</span>
+        </div>
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Continente:</span>
+            <span id="continente-resultado" class="valor">Cargando...</span>
+        </div>
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Ciudad:</span>
+            <span id="ciudad-resultado" class="valor">Cargando...</span>
+        </div>
     </div>
     <script src="assets/js/app.js"></script>
 </body>
