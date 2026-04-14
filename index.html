@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Conexión Actual</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css?v=1">
 </head>
 <body>
-    <div class="tarjeta">
-        <h1>Mi Conexión Actual</h1>
-        
-        <img id="bandera-imagen" src="" alt="bandera" style="display: none;">
+    <nav class="barra-navegacion">
+        <div class="logo">Geo-IP</div>
+    </nav>
 
-        <div class="dato-grupo">
-            <span class="etiqueta">Dirección IP:</span>
-            <span id="ip-resultado" class="valor">Cargando...</span>
-        </div>
+    <main class="principal">
+        <div class="tarjeta">
+            <h1>Mi Conexión Actual</h1>
+            
+            <img id="bandera-imagen" src="" alt="bandera" style="display: none;">
 
-        <div class="dato-grupo">
-            <span class="etiqueta">Continente:</span>
-            <span id="continente-resultado" class="valor">Cargando...</span>
-        </div>
+            <div class="dato-grupo">
+                <span class="etiqueta">Dirección IP:</span>
+                <span id="ip-resultado" class="valor">Cargando...</span>
+            </div>
 
-        <div class="dato-grupo">
-            <span class="etiqueta">Ciudad:</span>
-            <span id="ciudad-resultado" class="valor">Cargando...</span>
+            <div class="dato-grupo">
+                <span class="etiqueta">Continente:</span>
+                <span id="continente-resultado" class="valor">Cargando...</span>
+            </div>
+
+            <div class="dato-grupo">
+                <span class="etiqueta">Ciudad:</span>
+                <span id="ciudad-resultado" class="valor">Cargando...</span>
+            </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Andres Jeriel Cruz Resendiz | Programación Web | 22200916</p>
+    </footer>
+
     <script src="assets/js/app.js"></script>
 </body>
 </html>

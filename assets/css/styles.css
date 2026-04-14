@@ -2,11 +2,35 @@ body {
     font-family: 'inter', 'segoe ui', sans-serif;
     background-color: #0d1117; 
     color: #c9d1d9;
+    /* el body se convierte en una columna que ocupa el 100% de la pantalla */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.barra-navegacion {
+    background-color: #161b22;
+    padding: 20px;
+    border-bottom: 1px solid #30363d;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #58a6ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* esta clase empuja la navbar arriba y el footer abajo, centrando su contenido */
+.principal {
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    padding: 20px;
 }
 
 .tarjeta {
@@ -65,4 +89,13 @@ h1 {
     font-weight: bold;
     text-shadow: 0 0 15px rgba(122, 162, 247, 0.3);
     text-align: center;
+}
+
+.pie-pagina {
+    background-color: #161b22;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #30363d;
+    font-size: 0.9rem;
+    color: #8b949e;
 }
